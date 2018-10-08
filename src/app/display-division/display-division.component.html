@@ -1,4 +1,4 @@
-<h3>{{division.header}}</h3>
+<h2>{{division.header}} Division</h2>
 <p-table [value]="division.data">
   <ng-template pTemplate="header">
     <tr>
@@ -9,6 +9,10 @@
       <th>Week 1</th>
       <th>Week 2</th>
       <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
     </tr>
   </ng-template>
   <ng-template pTemplate="body" let-div>
@@ -20,6 +24,10 @@
       <td>{{div.week1}}</td>
       <td>{{div.week2}}</td>
       <td>{{div.week3}}</td>
+      <td>{{div.week4}}</td>
+      <td>{{div.week5}}</td>
+      <td>{{div.week6}}</td>
+      <td>{{div.week7}}</td>
     </tr>
   </ng-template>
 </p-table>

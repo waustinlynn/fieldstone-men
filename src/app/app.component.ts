@@ -8,20 +8,19 @@ import * as fieldstone from './data';
 })
 export class AppComponent implements OnInit {
   title = 'Fieldstone Men';
-  north: any = {};
-  south: any = {};
-  division1: any[];
+  fieldDivision: any = {};
+  stoneDivision: any = {};
   constructor() {
 
   }
 
   ngOnInit() {
-    this.north.data = [];
-    this.north.label = 'North';
-    this.south.data = [];
-    this.south.label = 'South';
-    this.createTeamList('north', this.north.data);
-    this.north.data = this.north.data.sort(this.sort);
+    this.fieldDivision.data = [];
+    this.fieldDivision.header = 'Field';
+    this.stoneDivision.data = [];
+    this.stoneDivision.header = 'Stone';
+    this.createTeamList('field', this.fieldDivision.data);
+    this.fieldDivision.data = this.fieldDivision.data.sort(this.sort);
   }
 
   sort(a: any, b: any) {
@@ -34,6 +33,7 @@ export class AppComponent implements OnInit {
   createTeamList(divisionName: string, resultArray: any[]) {
     //loop through divisions
     let divisionData = fieldstone.data[divisionName];
+    console.log(divisionData);
     //loop through teams
     for (let team in divisionData) {
       let dataObj: any = {};
@@ -42,12 +42,9 @@ export class AppComponent implements OnInit {
       dataObj.points = 0;
       dataObj.gamesWon = 0;
       dataObj.gamesLost = 0;
+      dataObj.label = team;
       //loop through weeks to calculate matches
       for (let week in divisionData[team]) {
-        if (week == 'label') {
-          dataObj.label = divisionData[team].label;
-          continue;
-        }
 
         let weekData = divisionData[team][week];
         let matchResult = this.winMatch(weekData.match);
@@ -70,6 +67,7 @@ export class AppComponent implements OnInit {
       dataObj.gamesLabel = `Won:${dataObj.gamesWon}, Lost:${dataObj.gamesLost}`;
       resultArray.push(dataObj);
     }
+    console.log(resultArray);
   }
 
   winMatch(score: string): any {
