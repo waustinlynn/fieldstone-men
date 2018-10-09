@@ -20,7 +20,9 @@ export class AppComponent implements OnInit {
     this.stoneDivision.data = [];
     this.stoneDivision.header = 'Stone';
     this.createTeamList('field', this.fieldDivision.data);
+    this.createTeamList('stone', this.stoneDivision.data);
     this.fieldDivision.data = this.fieldDivision.data.sort(this.sort);
+    this.stoneDivision.data = this.stoneDivision.data.sort(this.sort);
   }
 
   sort(a: any, b: any) {

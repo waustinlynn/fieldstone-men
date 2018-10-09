@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common'
 import { AppComponent } from './app.component';
 import { Table, TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
+import { TabViewModule } from 'primeng/tabview';
 import { DisplayDivisionComponent } from './display-division/display-division.component';
 
 @NgModule({
@@ -18,7 +19,8 @@ import { DisplayDivisionComponent } from './display-division/display-division.co
     BrowserModule,
     BrowserAnimationsModule,
     TableModule,
-    TooltipModule
+    TooltipModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]

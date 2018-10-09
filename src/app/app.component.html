@@ -5,4 +5,11 @@
   </h1>
 </div>
 <hr />
-<display-division [division]="fieldDivision"></display-division>
+<p-tabView>
+  <p-tabPanel header="Field Division">
+    <display-division [division]="fieldDivision"></display-division>
+  </p-tabPanel>
+  <p-tabPanel header="Stone Division">
+    <display-division [division]="stoneDivision"></display-division>
+  </p-tabPanel>
+</p-tabView>

@@ -3,24 +3,6 @@ export const NotPlayed = 'NP';
 
 //Teams
 
-//Stone
-//1
-export const RigelskyYarnall = 'RigelskyYarnall';
-//2
-export const BoydGreenwood = 'Boyd/Greenwood';
-//3
-export const BoskerIkerd = 'Bosker/Ikerd';
-//4
-export const NeshiemMullins = 'Meshien/Mullins';
-//5
-export const RosenburgThurman = 'Rosenburg/Thurman';
-//6
-export const BennettWest = 'Bennett/West';
-//7
-export const YoungFriedman = 'Young/Friedman';
-//8
-export const ZilliakConway = 'Zilliak/Conway';
-
 //Field
 //1
 export const GoldbergerDavis = 'Goldberger/Davis';
@@ -38,6 +20,32 @@ export const VoylesFord = 'Voyles/Ford';
 export const EichlerHoward = 'Eichler/Howard';
 //8
 export const WilhelmAustreng = 'Wilhelm/Austreng';
+
+//Stone
+//1
+export const RigelskyYarnall = 'RigelskyYarnall';
+//2
+export const BoydGreenwood = 'Boyd/Greenwood';
+//3
+export const BoskerIkerd = 'Bosker/Ikerd';
+//4
+export const NeshiemMullins = 'Neshien/Mullins';
+//5
+export const RosenburgThurman = 'Rosenburg/Thurman';
+//6
+export const BennettWest = 'Bennett/West';
+//7
+export const YoungFriedman = 'Young/Friedman';
+//8
+export const ZilliakConway = 'Zilliak/Conway';
+
+//Schedule
+// Week	    1	    2	    3	    4	    5	    6	    7
+// H vs. A	2 v 1	3 v 4	6 v 2	7 v 5	1 v 3	4 v 5	7 v 3
+// H vs. A	3 v 8	1 v 7	7 v 8	8 v 4	4 v 2	8 v 1	8 v 2
+// H vs. A	4 v 7	8 v 6	4 v 1	2 v 3	5 v 8	2 v 7	1 v 5
+// H vs. A	5 v 6	2 v 5	5 v 3	6 v 1	6 v 7	3 v 6	6 v 4
+
 
 export const data = {
     field: {
@@ -283,6 +291,245 @@ export const data = {
         }
     },
     stone: {
-
+        RigelskyYarnall: {
+            week1: {
+                opponent: BoydGreenwood,
+                match: 'NP'
+            },
+            week2: {
+                opponent: YoungFriedman,
+                match: 'NP'
+            },
+            week3: {
+                opponent: NeshiemMullins,
+                match: 'NP'
+            },
+            week4: {
+                opponent: BennettWest,
+                match: 'NP'
+            },
+            week5: {
+                opponent: BoskerIkerd,
+                match: 'NP'
+            },
+            week6: {
+                opponent: ZilliakConway,
+                match: 'NP'
+            },
+            week7: {
+                opponent: RosenburgThurman,
+                match: 'NP'
+            }
+        },
+        BoydGreenwood: {
+            week1: {
+                opponent: RigelskyYarnall,
+                match: 'NP'
+            },
+            week2: {
+                opponent: RosenburgThurman,
+                match: 'NP'
+            },
+            week3: {
+                opponent: BennettWest,
+                match: 'NP'
+            },
+            week4: {
+                opponent: BoskerIkerd,
+                match: 'NP'
+            },
+            week5: {
+                opponent: NeshiemMullins,
+                match: 'NP'
+            },
+            week6: {
+                opponent: YoungFriedman,
+                match: 'NP'
+            },
+            week7: {
+                opponent: ZilliakConway,
+                match: 'NP'
+            }
+        },
+        BoskerIkerd: {
+            week1: {
+                opponent: ZilliakConway,
+                match: 'NP'
+            },
+            week2: {
+                opponent: NeshiemMullins,
+                match: 'NP'
+            },
+            week3: {
+                opponent: RosenburgThurman,
+                match: 'NP'
+            },
+            week4: {
+                opponent: BoydGreenwood,
+                match: 'NP'
+            },
+            week5: {
+                opponent: RigelskyYarnall,
+                match: 'NP'
+            },
+            week6: {
+                opponent: BennettWest,
+                match: 'NP'
+            },
+            week7: {
+                opponent: YoungFriedman,
+                match: 'NP'
+            }
+        },
+        NeshiemMullins: {
+            week1: {
+                opponent: YoungFriedman,
+                match: 'NP'
+            },
+            week2: {
+                opponent: BoskerIkerd,
+                match: 'NP'
+            },
+            week3: {
+                opponent: RigelskyYarnall,
+                match: 'NP'
+            },
+            week4: {
+                opponent: ZilliakConway,
+                match: 'NP'
+            },
+            week5: {
+                opponent: BoydGreenwood,
+                match: 'NP'
+            },
+            week6: {
+                opponent: RosenburgThurman,
+                match: 'NP'
+            },
+            week7: {
+                opponent: BennettWest,
+                match: 'NP'
+            }
+        },
+        RosenburgThurman: {
+            week1: {
+                opponent: BennettWest,
+                match: 'NP'
+            },
+            week2: {
+                opponent: BoydGreenwood,
+                match: 'NP'
+            },
+            week3: {
+                opponent: BoskerIkerd,
+                match: 'NP'
+            },
+            week4: {
+                opponent: YoungFriedman,
+                match: 'NP'
+            },
+            week5: {
+                opponent: ZilliakConway,
+                match: 'NP'
+            },
+            week6: {
+                opponent: NeshiemMullins,
+                match: 'NP'
+            },
+            week7: {
+                opponent: RigelskyYarnall,
+                match: 'NP'
+            }
+        },
+        BennettWest: {
+            week1: {
+                opponent: RosenburgThurman,
+                match: 'NP'
+            },
+            week2: {
+                opponent: ZilliakConway,
+                match: 'NP'
+            },
+            week3: {
+                opponent: BoydGreenwood,
+                match: 'NP'
+            },
+            week4: {
+                opponent: RigelskyYarnall,
+                match: 'NP'
+            },
+            week5: {
+                opponent: YoungFriedman,
+                match: 'NP'
+            },
+            week6: {
+                opponent: BoskerIkerd,
+                match: 'NP'
+            },
+            week7: {
+                opponent: NeshiemMullins,
+                match: 'NP'
+            }
+        },
+        YoungFriedman: {
+            week1: {
+                opponent: NeshiemMullins,
+                match: 'NP'
+            },
+            week2: {
+                opponent: RigelskyYarnall,
+                match: 'NP'
+            },
+            week3: {
+                opponent: ZilliakConway,
+                match: 'NP'
+            },
+            week4: {
+                opponent: RosenburgThurman,
+                match: 'NP'
+            },
+            week5: {
+                opponent: BennettWest,
+                match: 'NP'
+            },
+            week6: {
+                opponent: BoydGreenwood,
+                match: 'NP'
+            },
+            week7: {
+                opponent: BoskerIkerd,
+                match: 'NP'
+            }
+        },
+        ZilliakConway: {
+            week1: {
+                opponent: BoskerIkerd,
+                match: 'NP'
+            },
+            week2: {
+                opponent: BennettWest,
+                match: 'NP'
+            },
+            week3: {
+                opponent: YoungFriedman,
+                match: 'NP'
+            },
+            week4: {
+                opponent: NeshiemMullins,
+                match: 'NP'
+            },
+            week5: {
+                opponent: RosenburgThurman,
+                match: 'NP'
+            },
+            week6: {
+                opponent: RigelskyYarnall,
+                match: 'NP'
+            },
+            week7: {
+                opponent: BoydGreenwood,
+                match: 'NP'
+            }
+        }
     }
 }
