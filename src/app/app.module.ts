@@ -8,6 +8,7 @@ import { Table, TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 import { TabViewModule } from 'primeng/tabview';
 import { DisplayDivisionComponent } from './display-division/display-division.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DisplayDivisionComponent } from './display-division/display-division.co
     BrowserAnimationsModule,
     TableModule,
     TooltipModule,
-    TabViewModule
+    TabViewModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

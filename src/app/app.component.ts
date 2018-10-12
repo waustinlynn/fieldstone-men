@@ -23,6 +23,7 @@ export class AppComponent implements OnInit {
     this.createTeamList('stone', this.stoneDivision.data);
     this.fieldDivision.data = this.fieldDivision.data.sort(this.sort);
     this.stoneDivision.data = this.stoneDivision.data.sort(this.sort);
+    console.log(this.fieldDivision.data);
   }
 
   sort(a: any, b: any) {
@@ -33,9 +34,7 @@ export class AppComponent implements OnInit {
   }
 
   createTeamList(divisionName: string, resultArray: any[]) {
-    //loop through divisions
     let divisionData = fieldstone.data[divisionName];
-    console.log(divisionData);
     //loop through teams
     for (let team in divisionData) {
       let dataObj: any = {};
@@ -45,13 +44,19 @@ export class AppComponent implements OnInit {
       dataObj.gamesWon = 0;
       dataObj.gamesLost = 0;
       dataObj.label = team;
+      dataObj.weeks = [];
       //loop through weeks to calculate matches
       for (let week in divisionData[team]) {
-
+        let weekObj: any = {};
+        dataObj[week] = {};
         let weekData = divisionData[team][week];
+        weekObj.home = weekData.home;
         let matchResult = this.winMatch(weekData.match);
+        weekObj.opponent = weekData.opponent;
+        weekObj.result = weekData.match;
         if (matchResult == undefined) {
-          dataObj[week] = `${weekData.opponent} (NP)`;
+
+          dataObj.weeks.push(weekObj);
           continue;
         }
         dataObj.gamesWon += +matchResult.gamesWon;
@@ -59,17 +64,20 @@ export class AppComponent implements OnInit {
         dataObj.points += +matchResult.points;
         if (matchResult.won) {
           dataObj.wins++;
+          weekObj.win = true;
+          dataObj[week].win = true;
         } else {
+          dataObj[week].win = false;
+          weekObj.win = false;
           dataObj.losses++;
         }
-        dataObj[week] = `${weekData.opponent} (${weekData.match})`;
+        dataObj.weeks.push(weekObj);
       }
       dataObj.percentage = dataObj.gamesWon / (dataObj.gamesLost + dataObj.gamesWon);
       dataObj.record = `${dataObj.wins}-${dataObj.losses}`;
       dataObj.gamesLabel = `Won:${dataObj.gamesWon}, Lost:${dataObj.gamesLost}`;
       resultArray.push(dataObj);
     }
-    console.log(resultArray);
   }
 
   winMatch(score: string): any {

@@ -1,10 +1,10 @@
-<p-table [value]="division.data">
+<p-table [value]="division.data" [responsive]=true>
   <ng-template pTemplate="header">
     <tr>
       <th>Team</th>
-      <th>Record</th>
-      <th>Points</th>
-      <th>Percentage</th>
+      <th class="smallColumn">Record</th>
+      <th class="smallColumn">Points</th>
+      <th class="smallColumn">%</th>
       <th>Week 1</th>
       <th>Week 2</th>
       <th>Week 3</th>
@@ -20,13 +20,21 @@
       <td>{{div.record}}</td>
       <td>{{div.points}}</td>
       <td pTooltip="{{div.gamesLabel}}">{{div.percentage | percent}}</td>
-      <td>{{div.week1}}</td>
-      <td>{{div.week2}}</td>
-      <td>{{div.week3}}</td>
-      <td>{{div.week4}}</td>
-      <td>{{div.week5}}</td>
-      <td>{{div.week6}}</td>
-      <td>{{div.week7}}</td>
-    </tr>
+      <td *ngFor="let week of div.weeks" [ngClass]="{'winner': week.win === true, 'loser': week.win === false}">
+        <span class="weekOpponent">{{week.opponent}}</span>
+        <span class="detail">
+          <span class="detail">
+            ({{week.result}})&nbsp;
+          </span>
+          <span class="detail">
+            <fa *ngIf="week.home === true" name="home"></fa>
+          </span>
+        </span>
+      </td>
   </ng-template>
 </p-table>
+<h5>
+  <div class="winner">Winner</div>
+  <div class="loser">Loser</div>
+  <fa name="home"></fa> = Home Match
+</h5>

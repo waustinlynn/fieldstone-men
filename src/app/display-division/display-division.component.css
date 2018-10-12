@@ -1,0 +1,35 @@
+.smallColumn {
+    width: 5%;
+}
+
+.weekOpponent {
+    display: flex;
+    flex-direction: column;
+}
+
+.winner {
+    color:green;
+}
+
+.loser {
+    color:red;
+}
+
+.inlineIcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail > fa {
+    color: black;
+}
