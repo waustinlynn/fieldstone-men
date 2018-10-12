@@ -21,7 +21,7 @@
       <td>{{div.points}}</td>
       <td pTooltip="{{div.gamesLabel}}">{{div.percentage | percent}}</td>
       <td *ngFor="let week of div.weeks" [ngClass]="{'winner': week.win === true, 'loser': week.win === false}">
-        <span class="weekOpponent">{{week.opponent}}</span>
+        <span class="detail">{{week.opponent}}</span>
         <span class="detail">
           <span class="detail">
             ({{week.result}})&nbsp;

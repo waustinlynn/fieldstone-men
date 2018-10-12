@@ -2,11 +2,6 @@
     width: 5%;
 }
 
-.weekOpponent {
-    display: flex;
-    flex-direction: column;
-}
-
 .winner {
     color:green;
 }
@@ -16,11 +11,6 @@
 }
 
 .inlineIcon {
-    display: flex;
-    flex-direction: row;
-}
-
-.detail {
     display: flex;
     flex-direction: row;
 }
