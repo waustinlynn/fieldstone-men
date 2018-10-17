@@ -52,7 +52,7 @@ export const data = {
         GoldbergerDavis: {
             week1: {
                 opponent: LepineLaliberte,
-                match: '7-6,6-7,7-6'
+                match: 'NP'
             },
             week2: {
                 opponent: EichlerHoward,
@@ -85,7 +85,7 @@ export const data = {
         LepineLaliberte: {
             week1: {
                 opponent: GoldbergerDavis,
-                match: '6-7,7-6,6-7',
+                match: 'NP',
                 home: true
             },
             week2: {
@@ -119,7 +119,7 @@ export const data = {
         MaiconErnissee: {
             week1: {
                 opponent: WilhelmAustreng,
-                match: '3-6,6-2,6-3',
+                match: 'NP',
                 home: true
             },
             week2: {
@@ -152,7 +152,7 @@ export const data = {
         MurphyBrady: {
             week1: {
                 opponent: EichlerHoward,
-                match: '7-6,6-4',
+                match: 'NP',
                 home: true
             },
             week2: {
@@ -186,7 +186,7 @@ export const data = {
         LynnSaracki: {
             week1: {
                 opponent: VoylesFord,
-                match: '6-0,6-7,6-7',
+                match: 'NP',
                 home: true
             },
             week2: {
@@ -219,7 +219,7 @@ export const data = {
         VoylesFord: {
             week1: {
                 opponent: LynnSaracki,
-                match: '0-6,7-6,7-6'
+                match: 'NP'
             },
             week2: {
                 opponent: WilhelmAustreng,
@@ -253,7 +253,7 @@ export const data = {
         EichlerHoward: {
             week1: {
                 opponent: MurphyBrady,
-                match: '6-7,4-6'
+                match: 'NP'
             },
             week2: {
                 opponent: GoldbergerDavis,
@@ -286,7 +286,7 @@ export const data = {
         WilhelmAustreng: {
             week1: {
                 opponent: MaiconErnissee,
-                match: '6-3,2-6,3-6'
+                match: 'NP'
             },
             week2: {
                 opponent: VoylesFord,
