@@ -186,7 +186,7 @@ export const data = {
         LynnSaracki: {
             week1: {
                 opponent: VoylesFord,
-                match: 'NP',
+                match: '6-1,6-3',
                 home: true
             },
             week2: {
@@ -219,7 +219,7 @@ export const data = {
         VoylesFord: {
             week1: {
                 opponent: LynnSaracki,
-                match: 'NP'
+                match: '1-6,3-6'
             },
             week2: {
                 opponent: WilhelmAustreng,
@@ -389,7 +389,7 @@ export const data = {
         BoskerIkerd: {
             week1: {
                 opponent: ZilliakConway,
-                match: 'NP',
+                match: '0-6,1-6',
                 home: true
             },
             week2: {
@@ -556,7 +556,7 @@ export const data = {
         ZilliakConway: {
             week1: {
                 opponent: BoskerIkerd,
-                match: 'NP'
+                match: '6-0,6-1'
             },
             week2: {
                 opponent: BennettWest,
