@@ -119,7 +119,7 @@ export const data = {
         MaiconErnissee: {
             week1: {
                 opponent: WilhelmAustreng,
-                match: 'NP',
+                match: '5-7,4-6',
                 home: true
             },
             week2: {
@@ -286,7 +286,7 @@ export const data = {
         WilhelmAustreng: {
             week1: {
                 opponent: MaiconErnissee,
-                match: 'NP'
+                match: '7-5,6-4'
             },
             week2: {
                 opponent: VoylesFord,
@@ -322,7 +322,7 @@ export const data = {
         RigelskyYarnall: {
             week1: {
                 opponent: BoydGreenwood,
-                match: 'NP'
+                match: '2-6,6-7'
             },
             week2: {
                 opponent: YoungFriedman,
@@ -355,7 +355,7 @@ export const data = {
         BoydGreenwood: {
             week1: {
                 opponent: RigelskyYarnall,
-                match: 'NP',
+                match: '6-2,7-6',
                 home: true
             },
             week2: {
