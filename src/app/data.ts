@@ -322,7 +322,7 @@ export const data = {
         RigelskyYarnall: {
             week1: {
                 opponent: BoydGreenwood,
-                match: '2-6,6-7'
+                match: '2-6,2-6'
             },
             week2: {
                 opponent: YoungFriedman,
@@ -355,7 +355,7 @@ export const data = {
         BoydGreenwood: {
             week1: {
                 opponent: RigelskyYarnall,
-                match: '6-2,7-6',
+                match: '6-2,6-2',
                 home: true
             },
             week2: {
