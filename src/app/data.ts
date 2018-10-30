@@ -456,7 +456,7 @@ export const data = {
         RosenburgThurman: {
             week1: {
                 opponent: BennettWest,
-                match: 'NP',
+                match: '6-4,6-7,7-5',
                 home: true
             },
             week2: {
@@ -489,7 +489,7 @@ export const data = {
         BennettWest: {
             week1: {
                 opponent: RosenburgThurman,
-                match: 'NP'
+                match: '4-6,7-6,5-7'
             },
             week2: {
                 opponent: ZilliakConway,
