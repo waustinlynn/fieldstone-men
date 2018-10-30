@@ -152,7 +152,7 @@ export const data = {
         MurphyBrady: {
             week1: {
                 opponent: EichlerHoward,
-                match: 'NP',
+                match: '6-1,6-0',
                 home: true
             },
             week2: {
@@ -253,7 +253,7 @@ export const data = {
         EichlerHoward: {
             week1: {
                 opponent: MurphyBrady,
-                match: 'NP'
+                match: '1-6,0-6'
             },
             week2: {
                 opponent: GoldbergerDavis,
