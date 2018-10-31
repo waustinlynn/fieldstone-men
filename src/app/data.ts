@@ -52,7 +52,7 @@ export const data = {
         GoldbergerDavis: {
             week1: {
                 opponent: LepineLaliberte,
-                match: 'NP'
+                match: '6-2,6-3'
             },
             week2: {
                 opponent: EichlerHoward,
@@ -85,7 +85,7 @@ export const data = {
         LepineLaliberte: {
             week1: {
                 opponent: GoldbergerDavis,
-                match: 'NP',
+                match: '2-6,3-6',
                 home: true
             },
             week2: {
@@ -223,7 +223,7 @@ export const data = {
             },
             week2: {
                 opponent: WilhelmAustreng,
-                match: 'NP'
+                match: '3-6,5-7'
             },
             week3: {
                 opponent: LepineLaliberte,
@@ -290,7 +290,7 @@ export const data = {
             },
             week2: {
                 opponent: VoylesFord,
-                match: 'NP',
+                match: '6-3,7-5',
                 home: true
             },
             week3: {
@@ -326,7 +326,7 @@ export const data = {
             },
             week2: {
                 opponent: YoungFriedman,
-                match: 'NP',
+                match: '6-1,6-7,6-4',
                 home: true
             },
             week3: {
@@ -527,7 +527,7 @@ export const data = {
             },
             week2: {
                 opponent: RigelskyYarnall,
-                match: 'NP'
+                match: '1-6,7-6,4-6'
             },
             week3: {
                 opponent: ZilliakConway,
