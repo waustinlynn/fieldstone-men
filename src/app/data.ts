@@ -56,7 +56,7 @@ export const data = {
             },
             week2: {
                 opponent: EichlerHoward,
-                match: 'NP',
+                match: '7-6,6-1',
                 home: true
             },
             week3: {
@@ -124,7 +124,7 @@ export const data = {
             },
             week2: {
                 opponent: MurphyBrady,
-                match: 'NP',
+                match: '1-6,1-6',
                 home: true
             },
             week3: {
@@ -157,7 +157,7 @@ export const data = {
             },
             week2: {
                 opponent: MaiconErnissee,
-                match: 'NP'
+                match: '6-1,6-1'
             },
             week3: {
                 opponent: GoldbergerDavis,
@@ -257,7 +257,7 @@ export const data = {
             },
             week2: {
                 opponent: GoldbergerDavis,
-                match: 'NP'
+                match: '6-7,1-6'
             },
             week3: {
                 opponent: WilhelmAustreng,
@@ -360,7 +360,7 @@ export const data = {
             },
             week2: {
                 opponent: RosenburgThurman,
-                match: 'NP',
+                match: '6-1,6-1',
                 home: true
             },
             week3: {
@@ -394,7 +394,7 @@ export const data = {
             },
             week2: {
                 opponent: NeshiemMullins,
-                match: 'NP',
+                match: '6-4,4-6,6-4',
                 home: true
             },
             week3: {
@@ -427,7 +427,7 @@ export const data = {
             },
             week2: {
                 opponent: BoskerIkerd,
-                match: 'NP'
+                match: '4-6,6-4,4-6'
             },
             week3: {
                 opponent: RigelskyYarnall,
@@ -461,7 +461,7 @@ export const data = {
             },
             week2: {
                 opponent: BoydGreenwood,
-                match: 'NP'
+                match: '1-6,1-6'
             },
             week3: {
                 opponent: BoskerIkerd,
