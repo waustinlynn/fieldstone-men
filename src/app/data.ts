@@ -493,7 +493,7 @@ export const data = {
             },
             week2: {
                 opponent: ZilliakConway,
-                match: 'NP'
+                match: '2-6,2-6'
             },
             week3: {
                 opponent: BoydGreenwood,
@@ -560,7 +560,7 @@ export const data = {
             },
             week2: {
                 opponent: BennettWest,
-                match: 'NP',
+                match: '6-2,6-2',
                 home: true
             },
             week3: {
