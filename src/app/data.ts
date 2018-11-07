@@ -422,7 +422,7 @@ export const data = {
         NeshiemMullins: {
             week1: {
                 opponent: YoungFriedman,
-                match: 'NP',
+                match: '6-4,6-1',
                 home: true
             },
             week2: {
@@ -523,7 +523,7 @@ export const data = {
         YoungFriedman: {
             week1: {
                 opponent: NeshiemMullins,
-                match: 'NP'
+                match: '4-6,1-6'
             },
             week2: {
                 opponent: RigelskyYarnall,
