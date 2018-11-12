@@ -129,7 +129,7 @@ export const data = {
             },
             week3: {
                 opponent: LynnSaracki,
-                match: 'NP'
+                match: '2-6,5-7'
             },
             week4: {
                 opponent: LepineLaliberte,
@@ -195,7 +195,7 @@ export const data = {
             },
             week3: {
                 opponent: MaiconErnissee,
-                match: 'NP',
+                match: '6-2,7-5',
                 home: true
             },
             week4: {
@@ -331,7 +331,7 @@ export const data = {
             },
             week3: {
                 opponent: NeshiemMullins,
-                match: 'NP'
+                match: '3-6,4-6'
             },
             week4: {
                 opponent: BennettWest,
@@ -399,7 +399,7 @@ export const data = {
             },
             week3: {
                 opponent: RosenburgThurman,
-                match: 'NP'
+                match: '7-6,6-7,6-4'
             },
             week4: {
                 opponent: BoydGreenwood,
@@ -431,7 +431,7 @@ export const data = {
             },
             week3: {
                 opponent: RigelskyYarnall,
-                match: 'NP',
+                match: '6-3,6-4',
                 home: true
             },
             week4: {
@@ -465,7 +465,7 @@ export const data = {
             },
             week3: {
                 opponent: BoskerIkerd,
-                match: 'NP',
+                match: '6-7,7-6,4-6',
                 home: true
             },
             week4: {
@@ -531,7 +531,7 @@ export const data = {
             },
             week3: {
                 opponent: ZilliakConway,
-                match: 'NP',
+                match: '1-6,3-6',
                 home: true
             },
             week4: {
@@ -565,7 +565,7 @@ export const data = {
             },
             week3: {
                 opponent: YoungFriedman,
-                match: 'NP'
+                match: '6-1,6-3'
             },
             week4: {
                 opponent: NeshiemMullins,
