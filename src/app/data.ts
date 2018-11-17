@@ -95,11 +95,11 @@ export const data = {
             },
             week3: {
                 opponent: VoylesFord,
-                match: 'NP'
+                match: '2-6,3-6'
             },
             week4: {
                 opponent: MaiconErnissee,
-                match: 'NP',
+                match: '3-6,1-6',
                 home: true
             },
             week5: {
@@ -133,7 +133,7 @@ export const data = {
             },
             week4: {
                 opponent: LepineLaliberte,
-                match: 'NP'
+                match: '6-3,6-1'
             },
             week5: {
                 opponent: GoldbergerDavis,
@@ -227,7 +227,7 @@ export const data = {
             },
             week3: {
                 opponent: LepineLaliberte,
-                match: 'NP',
+                match: '6-2,6-3',
                 home: true
             },
             week4: {
