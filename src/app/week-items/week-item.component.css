@@ -1,0 +1,8 @@
+.weekContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.weekItem {
+    display: flex;
+}
