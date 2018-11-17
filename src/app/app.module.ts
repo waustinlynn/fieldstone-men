@@ -8,12 +8,14 @@ import { Table, TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 import { TabViewModule } from 'primeng/tabview';
 import { DisplayDivisionComponent } from './display-division/display-division.component';
+import { WeekItemComponent } from './week-items/week-item.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DisplayDivisionComponent
+    DisplayDivisionComponent,
+    WeekItemComponent
   ],
   imports: [
     CommonModule,

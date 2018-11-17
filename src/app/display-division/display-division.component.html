@@ -5,13 +5,27 @@
       <th class="smallColumn">Record</th>
       <th class="smallColumn">Points</th>
       <th class="smallColumn">%</th>
-      <th>Week 1</th>
-      <th>Week 2</th>
-      <th>Week 3</th>
-      <th>Week 4</th>
-      <th>Week 5</th>
-      <th>Week 6</th>
-      <th>Week 7</th>
+      <th>
+        <week-item [weekTitle]="'Week 1'" [weekDate]="'(10/21-10/27)'"></week-item>
+      </th>
+      <th>
+        <week-item [weekTitle]="'Week 2'" [weekDate]="'(10/28-11/3)'"></week-item>
+      </th>
+      <th>
+        <week-item [weekTitle]="'Week 3'" [weekDate]="'(11/4-11/10)'"></week-item>
+      </th>
+      <th>
+        <week-item [weekTitle]="'Week 4'" [weekDate]="'(11/11-11/17)'"></week-item>
+      </th>
+      <th>
+        <week-item [weekTitle]="'Week 5'" [weekDate]="'(11/18-11/24)'"></week-item>
+      </th>
+      <th>
+        <week-item [weekTitle]="'Week 6'" [weekDate]="'(11/25-12/1)'"></week-item>
+      </th>
+      <th>
+        <week-item [weekTitle]="'Week 7'" [weekDate]="'(12/2-12/7)'"></week-item>
+      </th>
     </tr>
   </ng-template>
   <ng-template pTemplate="body" let-div>
