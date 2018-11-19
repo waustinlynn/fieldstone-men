@@ -90,7 +90,7 @@ export const data = {
             },
             week2: {
                 opponent: LynnSaracki,
-                match: 'NP',
+                match: '2-6,3-6',
                 home: true
             },
             week3: {
@@ -191,7 +191,7 @@ export const data = {
             },
             week2: {
                 opponent: LepineLaliberte,
-                match: 'NP'
+                match: '6-2,6-3'
             },
             week3: {
                 opponent: MaiconErnissee,
@@ -261,7 +261,7 @@ export const data = {
             },
             week3: {
                 opponent: WilhelmAustreng,
-                match: 'NP',
+                match: '0-6,3-6',
                 home: true
             },
             week4: {
@@ -295,7 +295,7 @@ export const data = {
             },
             week3: {
                 opponent: EichlerHoward,
-                match: 'NP'
+                match: '6-0,6-3'
             },
             week4: {
                 opponent: MurphyBrady,
@@ -369,7 +369,7 @@ export const data = {
             },
             week4: {
                 opponent: BoskerIkerd,
-                match: 'NP',
+                match: '6-3,6-1',
                 home: true
             },
             week5: {
@@ -403,7 +403,7 @@ export const data = {
             },
             week4: {
                 opponent: BoydGreenwood,
-                match: 'NP'
+                match: '3-6,1-6'
             },
             week5: {
                 opponent: RigelskyYarnall,
