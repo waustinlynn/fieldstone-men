@@ -141,7 +141,7 @@ export const data = {
             },
             week6: {
                 opponent: VoylesFord,
-                match: 'NP',
+                match: '6-7,6-0,6-7',
                 home: true
             },
             week7: {
@@ -242,7 +242,7 @@ export const data = {
             },
             week6: {
                 opponent: MaiconErnissee,
-                match: 'NP'
+                match: '7-6,0-6,7-6'
             },
             week7: {
                 opponent: MurphyBrady,
@@ -365,7 +365,7 @@ export const data = {
             },
             week3: {
                 opponent: BennettWest,
-                match: 'NP'
+                match: '6-0,6-3'
             },
             week4: {
                 opponent: BoskerIkerd,
@@ -497,7 +497,7 @@ export const data = {
             },
             week3: {
                 opponent: BoydGreenwood,
-                match: 'NP',
+                match: '0-6,3-6',
                 home: true
             },
             week4: {
