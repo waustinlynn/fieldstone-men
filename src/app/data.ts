@@ -237,7 +237,7 @@ export const data = {
             },
             week5: {
                 opponent: EichlerHoward,
-                match: 'NP',
+                match: 'Default - Win',
                 home: true
             },
             week6: {
@@ -271,7 +271,7 @@ export const data = {
             },
             week5: {
                 opponent: VoylesFord,
-                match: 'NP'
+                match: 'Default - Loss'
             },
             week6: {
                 opponent: LepineLaliberte,

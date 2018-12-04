@@ -82,11 +82,20 @@ export class AppComponent implements OnInit {
   winMatch(score: string): any {
     //return an object with {won:boolean, points: number, gamesWon: number, gamesLost: number} or undefined if not played
     if (score == fieldstone.NotPlayed) return undefined;
-    let splitScore = score.split(',');
     let won = false;
     let points = 0;
     let gamesWon = 0;
     let gamesLost = 0;
+    if (score.includes('Default')) {
+      return {
+        points: 3,
+        won: score.includes('Win'),
+        gamesWon,
+        gamesLost
+      }
+    }
+
+    let splitScore = score.split(',');
     for (let matchScore of splitScore) {
       let splitSetScore = matchScore.split('-');
       let homeScore = +splitSetScore[0];
