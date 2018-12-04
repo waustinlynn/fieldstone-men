@@ -74,7 +74,7 @@ export const data = {
             },
             week6: {
                 opponent: WilhelmAustreng,
-                match: 'NP'
+                match: '3-6,6-4,0-6'
             },
             week7: {
                 opponent: LynnSaracki,
@@ -308,7 +308,7 @@ export const data = {
             },
             week6: {
                 opponent: GoldbergerDavis,
-                match: 'NP',
+                match: '6-3,4-6,6-0',
                 home: true
             },
             week7: {
