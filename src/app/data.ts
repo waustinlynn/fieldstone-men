@@ -78,7 +78,7 @@ export const data = {
             },
             week7: {
                 opponent: LynnSaracki,
-                match: 'NP',
+                match: '3-6,7-5,4-6',
                 home: true
             }
         },
@@ -213,7 +213,7 @@ export const data = {
             },
             week7: {
                 opponent: GoldbergerDavis,
-                match: 'NP'
+                match: '6-3,5-7,6-4'
             }
         },
         VoylesFord: {
