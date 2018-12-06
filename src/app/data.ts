@@ -383,7 +383,7 @@ export const data = {
             },
             week7: {
                 opponent: ZilliakConway,
-                match: 'NP'
+                match: '4-6,6-2,7-5'
             }
         },
         BoskerIkerd: {
@@ -583,7 +583,7 @@ export const data = {
             },
             week7: {
                 opponent: BoydGreenwood,
-                match: 'NP',
+                match: '6-4,2-6,5-7',
                 home: true
             }
         }
